@@ -94,7 +94,7 @@ section {
     margin-top: 40px;
 }
 .banner {
-    background-image: url('resources/banner-image.jpg');
+    background-image: url(resources/banner-image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -215,7 +215,7 @@ section {
 /********** FOOTER SECTION STYLES ***********/
 
 footer {
-    background-image: url('resources/footer-image.jpg');
+    background-image: url(resources/footer-image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
