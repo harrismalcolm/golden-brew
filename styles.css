@@ -1,0 +1,154 @@
+/********** UNIVERSAL STYLES ***********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/********** TYPOGRAPHY ***********/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+/********** HEADER SECTION STYLES ***********/
+header {
+    display: flex;
+    flex-direction: column;
+    /* position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1; */
+    background-color: bisque;
+}
+
+/********** NAV SECTION STYLES ***********/
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: underline;
+    color: black;
+    font-size: 2rem;
+}
+
+
+/********** MAIN SECTION STYLES ***********/
+main {
+    width: 100%;
+}
+
+section {
+    margin-top: 40px;
+}
+.banner {
+    background-image: url('/resources/banner-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 600px;
+}
+
+.box {
+    width: 35%;
+    margin-top: 40px;
+}
+
+.box img {
+    width: 50%;
+}
+
+.content-box {
+    display: flex;
+}
+
+/********** ABOUT SECTION STYLES ***********/
+
+#about {
+    padding: 30px 50px;
+}
+
+#about p {
+    margin-top: 20px;
+    padding: 0 350px;
+    font-size: 1.5rem;
+}
+
+/********** MENU SECTION STYLES ***********/
+
+#menu {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 40px 0;
+}
+
+.content {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item-list {
+    margin-top: 20px;
+}
+
+.menu-item-list h3 {
+    margin-bottom: 20px;
+}
+
+.menu-item-list li {
+    list-style: none;
+}
+
+/********** EMPLOYEE SECTION STYLES ***********/
+
+.bio {
+    margin-top: 20px;
+    padding: 0 80px;
+}
+
+.bio h3 {
+    margin-bottom: 10px;
+}
+
+
+/********** FOOTER SECTION STYLES ***********/
+
+footer {
+    background-image: url('/resources/footer-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 40px;
+    padding: 100px 0;
+}
